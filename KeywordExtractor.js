@@ -17,8 +17,9 @@ class KeywordExtractor {
         const defaultCategory = 'NN';
         const defaultCategoryCapitalized = 'NNP';
         const lexicon = new natural.Lexicon(language, defaultCategory, defaultCategoryCapitalized);
-        const ruleSet = new natural.RuleSet('EN');
-        const tagger = new natural.BrillPOSTagger(lexicon, ruleSet);
+        const ruleSetCurrent = new natural.RuleSet('CURRENT');
+        const ruleSetCondition = new natural.RuleSet('EN');
+        const tagger = new natural.BrillPOSTagger(lexicon, ruleSetCurrent, ruleSetCondition);
         const tokenizedSentence = this.tokenizeWord(sentence);
         const taggedWords = tagger.tag(tokenizedSentence);
         return taggedWords;

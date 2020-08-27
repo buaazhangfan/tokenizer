@@ -34,8 +34,8 @@ sentence = 'create task ask pinnacle to fly to Seattle'
 sentence = 'get reminder with the subject meet with pinnacle'
 sentence = 'create a reminder that is called buy eggs at 5pm'
 
-sentence = 'create a task with the subject, plan for a demo';
-sentence = 'create a task to plan for a demo 3pm'
+// sentence = 'create a task with the subject, plan for a demo';
+// sentence = 'create a proposal to invoice for a demo 3pm';
 // sentence = 'create a task with the subject send for a demo as the subject'
 // sentence = 'create a task with plan for a demo as the subject'
 // sentence = 'create task to buy ticket for Pinnacle as a gift and set a reminder to call the guy from pyramid systems at 3:30pm'
@@ -51,7 +51,7 @@ sentence = 'create a task to plan for a demo 3pm'
 // sentence = 'create a task called plan for a demo for a demo for a demo'
 // // sentence = 'amy'
 // sentence = "discussed with tom about the open SRS for the seaman's account"
-// sentence = "as the next steps, call support to escalate the critical SRS"
+sentence = "as the next steps, call support to escalate the critical SRS"
 // sentence = 'create a task to plan for a demo next week'
 // sentence = 'create a task to plan for a demo'
 
